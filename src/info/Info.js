@@ -82,7 +82,7 @@ export const info = {
     bio: "Full Stack Software Developer with a strong track record of building and deploying successful full stack web applications. Adept at problem-solving and continuously expanding knowledge to stay at the forefront of technology. Demonstrated expertise in elevating educational organizations through innovative web development, effective project management, and exceptional user experience design. Possesses a unique blend of technical proficiency and leadership skills to drive value to a company with a global presence.",
     skills:
         {
-            proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'figma'],
+            proficientWith: ['Javascript', 'React', 'C#', 'Python', 'AWS', 'Node.js', 'ExpressJS', 'SQL', 'MySQL', 'PostgreSQL', 'HTML', 'CSS', 'Agile(Scrum)', 'TailwindCSS', 'MongoDB', 'Firebase', 'OOP', 'Wordpress', 'SEO Optimization', 'Web Design', 'Web Accessibility'],
             exposedTo: ['nodejs', 'python', 'adobe illustrator']
         }
     ,
