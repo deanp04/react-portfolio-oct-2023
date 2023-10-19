@@ -21,10 +21,10 @@ export default function Home() {
             <h2>{info.position}.</h2>
             <Box component={'ul'} p={'0.8rem'}>
                {info.miniBio.map((bio, index) => (
-                  <EmojiBullet key={index} emoji={bio.emoji} text={bio.text}/>
+                  <EmojiBullet key={index} emoji={bio.emoji} text={bio.link ? <a href={bio.link} target='_blank'>{bio.text}</a> : bio.text}/>
                ))}
             </Box>
-            <Box display={'flex'} gap={'1.5rem'} justifyContent={'center'} fontSize={{xs: '2rem', md: '2.5rem'}}>
+            <Box display={'flex'} gap={'1.5rem'} marginLeft={'0.15rem'} justifyContent={'left'} fontSize={{xs: '2rem', md: '2.5rem'}}>
                {info.socials.map((social, index) => (
                   <SocialIcon key={index} link={social.link} icon={social.icon} label={social.label} />
                ))}

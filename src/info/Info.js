@@ -32,45 +32,46 @@ export const info = {
     baseColor: colors[0],
     miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
         {
-            emoji: '☕',
-            text: 'fueled by coffee'
+            emoji: '🍣',
+            text: 'fueled by sushi'
         },
         {
             emoji: '🌎',
             text: 'based in the Atlanta, GA'
         },
-        {
-            emoji: "💼",
-            text: "Systems Engineer at Google"
-        },
+        // {
+        //     emoji: "💼",
+        //     text: "Systems Engineer at Google"
+        // },
         {
             emoji: "📧",
-            text: "deanp04@gmail.com"
+            text: "deanp04@gmail.com",
+            link: "mailto:deanp04@gmail.com"
         }
     ],
     socials: [
+        // {
+        //     link: "https://facebook.com",
+        //     icon: 'fa fa-facebook',
+        //     label: 'facebook'
+        // },
+        // {
+        //     link: "https://instagram.com",
+        //     icon: 'fa fa-instagram',
+        //     label: 'instagram'
+        // },
         {
-            link: "https://facebook.com",
-            icon: 'fa fa-facebook',
-            label: 'facebook'
-        },
-        {
-            link: "https://instagram.com",
-            icon: 'fa fa-instagram',
-            label: 'instagram'
-        },
-        {
-            link: "https://github.com",
+            link: "https://github.com/deanp04",
             icon: "fa fa-github",
             label: 'github'
         },
         {
-            link: "https://linkedin.com",
+            link: "https://www.linkedin.com/in/ddeanp/",
             icon: "fa fa-linkedin",
             label: 'linkedin'
         },
         {
-            link: "https://twitter.com",
+            link: "https://twitter.com/ddeanpatterson",
             icon: "fa fa-twitter",
             label: 'twitter'
         }
@@ -78,7 +79,7 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm John. I'm a systems engineer for Google. I studied CompSci at Harvard, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
+    bio: "Full Stack Software Developer with a strong track record of building and deploying successful full stack web applications. Adept at problem-solving and continuously expanding knowledge to stay at the forefront of technology. Demonstrated expertise in elevating educational organizations through innovative web development, effective project management, and exceptional user experience design. Possesses a unique blend of technical proficiency and leadership skills to drive value to a company with a global presence.",
     skills:
         {
             proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'figma'],
