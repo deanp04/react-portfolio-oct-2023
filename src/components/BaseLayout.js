@@ -31,8 +31,8 @@ export default function BaseLayout() {
       <Box className={darkMode ? Style.dark : Style.light}>
          <Grid container display={'flex'} flexDirection={'column'} minHeight={'100vh'}
                justifyContent={'space-between'}>
-            <Grid item>
-               <Navbar darkMode={darkMode} handleClick={handleToggleDarkMode}/>
+            <Grid item className={'navbar'}>
+               <Navbar darkMode={darkMode} className={'navbar'} handleClick={handleToggleDarkMode}/>
             </Grid>
             <Grid item flexGrow={1}>
                <Routes>
@@ -44,8 +44,8 @@ export default function BaseLayout() {
             <Grid item>
                <Box component={'footer'} display={'flex'} flexDirection={'column'} alignItems={'center'}
                     py={'1.5rem'} sx={{opacity: 0.7}} width={'100%'}>
-                  <p>template created with &hearts; by <a href={'https://paytonpierce.dev'}>Payton Pierce</a></p>
-                  <p>&copy; 2023</p>
+                  {/* <p>template created with &hearts; by <a href={'https://paytonpierce.dev'}>Payton Pierce</a></p> */}
+                  <p>&copy; 2023 Dean Patterson</p>
                </Box>
             </Grid>
          </Grid>

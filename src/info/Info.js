@@ -37,7 +37,7 @@ export const info = {
         },
         {
             emoji: '🌎',
-            text: 'based in the Atlanta, GA'
+            text: 'based in Atlanta, GA'
         },
         // {
         //     emoji: "💼",
@@ -88,20 +88,20 @@ export const info = {
     ,
     hobbies: [
         {
-            label: 'reading',
-            emoji: '📖'
+            label: 'exercise',
+            emoji: '🏃'
         },
         {
-            label: 'theater',
-            emoji: '🎭'
+            label: 'golf',
+            emoji: '🏌️‍♂️'
         },
         {
-            label: 'movies',
-            emoji: '🎥'
+            label: 'trumpet',
+            emoji: '🎺'
         },
         {
-            label: 'cooking',
-            emoji: '🌶'
+            label: 'family',
+            emoji: '👨‍👩‍👦🐶'
         }
 // Same as above, change the emojis to match / relate to your hobbies or interests.
 // You can also remove the emojis if you'd like, I just think they look cute :P
